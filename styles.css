@@ -1,0 +1,91 @@
+body {
+    font-family: 'Tahoma', sans-serif;
+    background: url('cba8c85a56cb0e7d550bc856898b0f7c.jpeg') no-repeat center center fixed;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    direction: rtl;
+    color: #333;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-bottom: 2px solid #ddd;
+}
+
+.logo-container img {
+    width: 200px;
+    height: auto;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin: 0 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #0056b3;
+    font-weight: bold;
+    padding: 10px 15px;
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.navbar a:hover {
+    color: white;
+    background-color: #0056b3;
+    border-radius: 5px;
+}
+
+.welcome-section {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 30px;
+    margin: 50px auto;
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.welcome-section h3 {
+    color: #0056b3;
+    text-align: center;
+}
+
+.welcome-section p {
+    line-height: 1.6;
+}
+
+.services {
+    list-style: none;
+    padding: 0;
+}
+
+.services li {
+    margin: 5px 0;
+    color: #ff5733;
+}
+
+.video-section {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+
+.video-section video {
+    width: 90%;
+    max-width: 700px;
+    border-radius: 10px;
+}
+
+
